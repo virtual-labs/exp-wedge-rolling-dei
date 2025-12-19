@@ -4,7 +4,7 @@
 <b>Discipline | <b>Mechanical Engineering
 :--|:--|
 <b> Lab | <b> Metal Forming Virtual Simulation Lab (Processes)
-<b> Experiment|     <b> Wedge Rolling
+<b> Experiment|     <b> Wedge Rolling Processes
 
 ### About the Experiment 
 
