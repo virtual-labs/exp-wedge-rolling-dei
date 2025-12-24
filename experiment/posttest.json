@@ -2,38 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The type of application of for force occurs during such deformation process:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sudden",
+        "b": "Gradual",
+        "c": "Periodic",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Force is not applied suddenly.",
+        "b": "Force is applied gradually during rolling.",
+        "c": "Force application is continuous, not periodic.",
+        "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The common type of shape produced on billet surface:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Chamfered surface",
+        "b": "Grooved surface",
+        "c": "Fillet surface",
+        "d": "Extruded surface"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Chamfering is not characteristic of TWR.",
+        "b": "Grooved surfaces are commonly produced.",
+        "c": "Fillets are not typical.",
+        "d": "Extrusion is a different process."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
+    },
+    {
+      "question": "In planetary TWR process following is not a limitation:",
+      "answers": {
+        "a": "Specific rolls for particular shaped product",
+        "b": "Fixed amount of feed",
+        "c": "Fixed depth of cut",
+        "d": "Discontinuous"
+      },
+      "explanations": {
+        "a": "Specific rolls are required.",
+        "b": "Feed is fixed.",
+        "c": "Depth of cut is fixed.",
+        "d": "Planetary TWR is a continuous process."
+      },
+      "correctAnswer": "d"
     }
   ]
 }
