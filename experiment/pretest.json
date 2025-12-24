@@ -2,38 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What shape of the billet is used in the Transverse wedge Rolling Process:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Square",
+        "b": "Round",
+        "c": "Hollow",
+        "d": "Rectangular"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Square billets are not typically used.",
+        "b": "Round billets are used in transverse wedge rolling.",
+        "c": "Hollow billets are not used.",
+        "d": "Rectangular billets are not used."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The following is not the version of Transverse Wedge Rolling:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Using three rolls",
+        "b": "Using planetary rolls",
+        "c": "Using punch and die",
+        "d": "Using concave tooling dies"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Three-roll systems are used in TWR.",
+        "b": "Planetary rolls are a version of TWR.",
+        "c": "Punch and die is not a TWR method.",
+        "d": "Concave tooling dies are used."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
+    },
+    {
+      "question": "What type of profile is used on rolls in this TWR process:",
+      "answers": {
+        "a": "Wedge shaped",
+        "b": "Spherical shaped",
+        "c": "Conical shaped",
+        "d": "Flat shaped"
+      },
+      "explanations": {
+        "a": "Wedge-shaped profiles are used in TWR.",
+        "b": "Spherical profiles are not used.",
+        "c": "Conical profiles are not typical.",
+        "d": "Flat profiles are not used."
+      },
+      "correctAnswer": "a"
     }
   ]
 }
