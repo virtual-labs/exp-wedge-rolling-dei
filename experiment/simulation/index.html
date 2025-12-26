@@ -1,13 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation - Transverse Wedge Rolling Process</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <h2 class="modal-title">Select Wedge Rolling Type</h2>
+            <p class="modal-description">Choose a transverse wedge rolling configuration</p>
+            <div class="modal-options">
+                <button class="modal-button" onclick="selectSimulation('planetary')">
+                    <h3>Using Planetary Rolls</h3>
+                    <p>Transverse wedge rolling with planetary roll system</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('threerolls')">
+                    <h3>Using Three Rolls</h3>
+                    <p>Transverse wedge rolling with three equidistant rolls</p>
+                </button>
+            </div>
+        </div>
+    </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar" style="display: none;">
+        <nav class="nav-menu">
+            <button class="back-button" onclick="backToSelection()">← Back to Selection</button>
+            
+            <div class="nav-section" id="planetary-nav" style="display: none;">
+                <h3 class="nav-title">Planetary Rolls</h3>
+                <ul class="nav-list">
+                    <li><a href="planetary-rolling.html" class="nav-link">Using Planetary Rolls</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="threerolls-nav" style="display: none;">
+                <h3 class="nav-title">Three Rolls</h3>
+                <ul class="nav-list">
+                    <li><a href="threerolls-rolling.html" class="nav-link">Using Three Rolls</a></li>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
