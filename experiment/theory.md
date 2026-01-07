@@ -7,7 +7,7 @@
 <body>
 
 <!-- Main heading of the experiment -->
-<h1>Transverse Wedge Rolling</h1>
+### Theory
 
 <!-- Introduction paragraph -->
 <p>
