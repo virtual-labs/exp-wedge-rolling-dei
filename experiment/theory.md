@@ -51,8 +51,12 @@ In the three-roll Transverse Wedge Rolling system, three rolls surround the bill
 rotate simultaneously. The wedge-shaped profiles on the rolls deform the billet uniformly
 as it rotates, producing the desired shape.
 </p>
+
+<center>
+    
 <img src="images/PlanetaryRolls.jpg" width="350" height="380" alt="Transverse Wedge Rolling using planetary rolls">
 <img src="images/ThreeRolls (1).jpg" width="370" height="380" alt="Transverse Wedge Rolling using three rolls">
+</center>
 <!-- End of theory content -->
 </body>
 </html>
